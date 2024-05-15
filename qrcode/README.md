@@ -248,7 +248,7 @@ pnpm dev --tunnel-url https://randomly-generated-hostname.trycloudflare.com:3000
   ``` 
   mkdir app_name
   cd app_name
-  npm install
+  npm init @shopify/app@latest -- --template=node
   npm run dev
   ```
 2. Try building
